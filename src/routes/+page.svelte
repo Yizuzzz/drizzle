@@ -3,7 +3,7 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 
-	let { data } = $props();
+	//let { data } = $props();
 </script>
 
 <svelte:head>
@@ -26,7 +26,8 @@
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
-	<p>
+	<p>HOLAAA</p>
+	<!--<p>
 		{#await data.views}
 			Loading..
 		{:then views}
@@ -34,7 +35,7 @@
 		{:catch error}
 			{error.message}
 		{/await}
-	</p>
+	</p>-->
 	<Counter />
 </section>
 
