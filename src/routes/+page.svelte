@@ -28,7 +28,7 @@
 	</h2>
 	<p>
 		{#await data.views}
-			Loading...
+			Loading..
 		{:then views}
 			This page has been viewed {views} times.
 		{:catch error}
